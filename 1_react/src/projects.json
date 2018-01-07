@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "week": "1",
+      "dateRange": "1/1 - 1/7",
+      "project": "React Webapp",
+      "hours": "2"
+    }
+  ]
+}

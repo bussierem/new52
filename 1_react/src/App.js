@@ -1,18 +1,36 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import data from './projects.json';
+
+class ProjectList extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: data.projects
+    };
+  }
+
+  render() {
+    const projectList = this.state.projects.map((project) => (
+      <li id="project">
+        Week {project.week} ({project.dateRange}): {project.project}  [Hours Spent: {project.hours}]
+      </li>
+    ));
+    return (
+      <ol id="projectList">{projectList}</ol>
+    )
+  }
+}
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">New 52 Project</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ProjectList />
       </div>
     );
   }
