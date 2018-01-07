@@ -31,6 +31,15 @@ li#project {
 
 }
 
+input#hours {
+  width: 50px;
+}
+
+.List {
+  width: 50%;
+  margin: auto;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

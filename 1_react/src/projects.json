@@ -1,10 +1,13 @@
 {
   "projects": [
     {
-      "week": "1",
-      "dateRange": "1/1 - 1/7",
-      "project": "React Webapp",
-      "hours": "2"
+      "id": 0,
+      "project": {
+        "week": "1",
+        "dateRange": "1/1 - 1/7",
+        "desc": "React Webapp",
+        "hours": 2
+      }
     }
   ]
 }
