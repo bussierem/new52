@@ -7,3 +7,6 @@ The hope is to be able to:
 * Add new projects each week
 * See a progress bar for the minimum 8 hours each week for that project
 * Add time to that project to advance the progress bar
+
+The focus of course will be on functionality, not style, in order to keep my
+tinkering limited to only new things (i.e. actual React code)
