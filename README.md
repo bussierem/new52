@@ -12,10 +12,10 @@
 
 ## Research Ideas:
 - [x] React
-- [ ] Golang
-- [ ] Rust
-- [ ] Lisp
-- [ ] Racket
+- [ ] Golang  :star:W
+- [ ] Rust  :star:W
+- [ ] Lisp  :star:W
+- [ ] Racket  :star:W
 - [ ] Async/Multithreading
 - [ ] Lua
 - [ ] Redux
@@ -24,19 +24,19 @@
 - [ ] Django
 - [ ] Unity2D
 - [ ] Godot Engine
-- [ ] PICO-8
+- [ ] PICO-8  :star:W
 - [ ] Jenkins CI/CD
-- [ ] Grunt/Gulp/NPM/etc (Group these)
+- [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)  :star:W
 - [ ] Logging Libraries
 - [ ] REST APIs
 - [ ] NodeJS
 - [ ] Ruby
 - [ ] CSS Advanced Topics (Sass, etc)
-- [ ] Relay
+- [ ] Relay W(replace with graphql)
 - [ ] EmberJS
 - [ ] Flexbox
-- [ ] Webpack/Browserify
-- [ ] Docker/Kubernetes
+- [ ] Webpack/Browserify/Rollup  :star:W
+- [ ] Docker/Kubernetes :star:W
 - [ ] NGINX or Apache
 - [ ] Machine Learning **BASICS**
 - [ ] Functional Programming (Haskell)
