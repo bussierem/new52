@@ -1,4 +1,4 @@
-# Week 1:  React
+# Week 1:  React  (COMPLETE!)
 
 This project will be the meta project, wherein I am making a small React webapp
 that will function as a personal tracker for the **New 52** project
