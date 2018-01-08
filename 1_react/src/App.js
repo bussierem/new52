@@ -38,14 +38,17 @@ class ProjectList extends Component {
 
   render() {
     var projectList = this.props.projects.map((p) => (
-      <ListGroupItem key={p.id.toString()} >
-        <Button color="danger" size="sm" name={p.id.toString()} onClick={this.delete}>X</Button>
-        Week {p.project.week}:  {p.project.desc}
-        <Badge pill>{p.project.hours}</Badge>
-        <Button outline color="primary" size="sm" name={p.id.toString()} onClick={this.add}>+</Button>
-        <Button outline color="secondary" size="sm" name={p.id.toString()} onClick={this.subtract}>-</Button>
-        <Progress striped value={(parseInt(p.project.hours, 10) / 8) * 100}>{p.project.hours}</Progress>
-      </ListGroupItem>
+      <div className="project">
+        <ListGroupItem key={p.id.toString()} >
+          <div className="ListDesc">
+          <Button className="delete" color="danger" size="sm" name={p.id.toString()} onClick={this.delete}>X</Button>
+          Week {p.project.week}:  {p.project.desc}
+          <Button className="counter" outline color="success" size="sm" name={p.id.toString()} onClick={this.add}>+</Button>
+          <Button className="counter" outline color="danger" size="sm" name={p.id.toString()} onClick={this.subtract}>-</Button>
+          </div>
+          <Progress striped value={(parseInt(p.project.hours, 10) / 8) * 100}>{p.project.hours}</Progress>
+        </ListGroupItem>
+      </div>
     ));
     return (
       <div className="List">
@@ -171,7 +174,8 @@ class App extends Component {
       projects: [
         ...prevState.projects,
         project,
-      ]
+      ],
+      showForm: !prevState.showForm
     }), () => {
       fetch(`http://localhost:3001/projects`, {
         method: 'post',

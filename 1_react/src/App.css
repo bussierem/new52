@@ -27,8 +27,8 @@ ol#projectList {
   font-size: 1.5em;
 }
 
-li#project {
-
+div.project {
+  margin: 4px;
 }
 
 input#hours {
@@ -41,8 +41,24 @@ input#hours {
 }
 
 div.Form {
-  width: 54%;
+  padding: 10px;
+  width: 27%;
   margin: auto;
+}
+
+Button.delete {
+  margin-right: 8px;
+}
+
+Button.counter {
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.ListDesc {
+  margin-bottom: 8px;
 }
 
 @keyframes App-logo-spin {
