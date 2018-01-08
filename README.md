@@ -32,7 +32,7 @@
 - [ ] NodeJS
 - [ ] Ruby
 - [ ] CSS Advanced Topics (Sass, etc)
-- [ ] Relay W(replace with graphql)
+- [ ] GraphQL :star:W
 - [ ] EmberJS
 - [ ] Flexbox
 - [ ] Webpack/Browserify/Rollup  :star:W
