@@ -4,7 +4,7 @@
 ## Week 1 (1/1 - 1/7):  React :white_check_mark:
 ### Project:  New 52 Tracking App
 
-## Week 2 (1/8 - 1/14):  REST APIs
+## Week 2 (1/8 - 1/14):  REST APIs :white_check_mark:
 ### Project:  Express JS Rest API serving a single JSON file
 
 ## Week 3 (1/15 - 1/22):  ???
