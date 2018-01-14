@@ -4,10 +4,11 @@
 ## Week 1 (1/1 - 1/7):  React :white_check_mark:
 ### Project:  New 52 Tracking App
 
+## Week 2 (1/8 - 1/14):  REST APIs
+### Project:  Express JS Rest API serving a single JSON file
 
-
-
-
+## Week 3 (1/15 - 1/22):  ???
+### Project:  ???
 ---
 
 ## Research Ideas:
@@ -15,34 +16,28 @@
 - [ ] Golang  :star:W
 - [ ] Rust  :star:W
 - [ ] Lisp  :star:W
-- [ ] Racket  :star:W
 - [ ] Async/Multithreading
 - [ ] Lua
-- [ ] Redux
 - [ ] VueJS
 - [ ] Flask
 - [ ] Django
 - [ ] Unity2D
 - [ ] Godot Engine
 - [ ] PICO-8  :star:W
-- [ ] Jenkins CI/CD
+- [ ] CI/CD: Jenkins, Gitlab, etc.
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)  :star:W
 - [ ] Logging Libraries
-- [ ] REST APIs
-- [ ] NodeJS
+- [x] REST APIs (Express JS)
 - [ ] Ruby
-- [ ] CSS Advanced Topics (Sass, etc)
-- [ ] GraphQL :star:W
+- [ ] CSS: Sass, Flexbox
 - [ ] EmberJS
-- [ ] Flexbox
 - [ ] Webpack/Browserify/Rollup  :star:W
 - [ ] Docker/Kubernetes :star:W
-- [ ] NGINX or Apache
+- [ ] Web Servers: NGINX, Apache
 - [ ] Machine Learning **BASICS**
-- [ ] Functional Programming (Haskell)
+- [ ] Functional Programming
 - [ ] Git
-- [ ] PostgreSQL
-- [ ] MongoDB
+- [ ] Data:  PostgreSQL, MongoDB, GraphQL
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
 - [ ] Arduino C + Electronics

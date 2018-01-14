@@ -1,0 +1,11 @@
+{
+  "name": "projects-api",
+  "main": "server.js",
+  "description": "Node/Express REST API for serving JSON data from a file",
+  "repository": "https://github.com/bussierem/new52",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "~4.16.0",
+    "json-schema-defaults": "~0.3.0"
+  }
+}

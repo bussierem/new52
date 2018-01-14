@@ -1,0 +1,12 @@
+{
+	"projects": [
+		{
+			"id": 0,
+			"project": {
+				"week": "1",
+				"desc": "React Webapp",
+				"hours": 12
+			}
+		}
+	]
+}
