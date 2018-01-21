@@ -1,20 +1,28 @@
 {
-	"projects": [
-		{
-			"id": 0,
-			"project": {
-				"week": "1",
-				"desc": "React Webapp",
-				"hours": 12
-			}
-		},
-		{
-			"id": 1,
-			"project": {
-				"week": "2",
-				"desc": "Node Server",
-				"hours": 7
-			}
-		}
-	]
+  "projects": [
+    {
+      "id": 0,
+      "project": {
+        "week": "1",
+        "desc": "React Webapp",
+        "hours": 12
+      }
+    },
+    {
+      "id": 1,
+      "project": {
+        "week": "2",
+        "desc": "Node Server",
+        "hours": 8
+      }
+    },
+    {
+      "id": 2,
+      "project": {
+        "week": "3",
+        "desc": "EmberJS Webapp",
+        "hours": 8
+      }
+    }
+  ]
 }
