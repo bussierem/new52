@@ -1,0 +1,16 @@
+<div class="object-listing">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+    <img src="{{rental.image}}" alt="" />
+    <small>View Larger</small>
+  </a>
+  <div class="objectName">
+    Name: {{thing.name}}
+  </div>
+  <div class="objectCategory">
+    Category: {{object-category thing.category}} - {{thing.category}}
+  </div>
+  <div class="objectDesc">
+    Description: {{thing.desc}}
+  </div>
+</div>
+{{yield}}

@@ -1,0 +1,3 @@
+[submodule "3_emberjs/reviews"]
+	path = 3_emberjs/reviews
+	url = git@github.com:bussierem/new52.git

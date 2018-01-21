@@ -1,0 +1,9 @@
+<h2>{{title}}</h2>
+<ul>
+  {{#each objects as |object|}}
+    <li {{action "showObject" object}}>
+      {{object-entry thing=object object=model}}
+    </li>
+  {{/each}}
+</ul>
+{{yield}}
