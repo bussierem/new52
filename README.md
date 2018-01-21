@@ -12,30 +12,37 @@
 ---
 
 ## Research Ideas:
+### Frameworks:
 - [x] React
-- [ ] Golang  :star:W
-- [ ] Rust  :star:W
-- [ ] Lisp  :star:W
-- [ ] Async/Multithreading
-- [ ] Lua
 - [ ] VueJS
 - [ ] Flask
 - [ ] Django
-- [ ] Unity2D
-- [ ] Godot Engine
-- [ ] PICO-8  :star:W
+- [x] EmberJS
+### Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)  :star:W
 - [ ] Logging Libraries
-- [x] REST APIs (Express JS)
 - [ ] CSS: Sass, Flexbox
-- [x] EmberJS
 - [ ] Webpack/Browserify/Rollup  :star:W
 - [ ] Docker/Kubernetes :star:W
 - [ ] Web Servers: NGINX, Apache
+- [ ] CI/CD: Jenkins, Gitlab, Git
+### Languages:
+- [ ] Go  :star:W
+- [ ] Rust  :star:W
+- [ ] Lisp  :star:W
+- [ ] Lua
+- [ ] Nim
+### Libraries/Engines
+- [ ] Unity2D
+- [ ] Godot Engine
+- [ ] PICO-8  :star:W
+### Programming Concepts
+- [ ] Async/Multithreading
+- [x] REST APIs (Express JS)
 - [ ] Machine Learning **BASICS**
 - [ ] Functional Programming
-- [ ] CI/CD: Jenkins, Gitlab, Git
 - [ ] Data:  PostgreSQL, MongoDB, GraphQL
+### Non-Code Topics
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
-- [ ] Arduino C + Electronics
+- [ ] Arduino C, Electronics
