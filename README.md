@@ -7,8 +7,11 @@
 ## Week 2 (1/8 - 1/14):  REST APIs :white_check_mark:
 ### Project:  Express JS Rest API serving a single JSON file
 
-## Week 3 (1/15 - 1/22):  EmberJS :white_check_mark:
+## Week 3 (1/15 - 1/21):  EmberJS :white_check_mark:
 ### Project:  A site where you can submit anything for funny reviews, or review submitted things
+
+## Week 4 (1/22-1/28):  Nim Language
+### Project:  Unknown until I explore the language more!
 ---
 
 ## Research Ideas:
@@ -21,7 +24,7 @@
 ### Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)  :star:W
 - [ ] Logging Libraries
-- [ ] CSS: Sass, Flexbox
+- [ ] CSS: Sass, Flexbox, Bootstrap, Milligram, etc.
 - [ ] Webpack/Browserify/Rollup  :star:W
 - [ ] Docker/Kubernetes :star:W
 - [ ] Web Servers: NGINX, Apache
@@ -31,7 +34,7 @@
 - [ ] Rust  :star:W
 - [ ] Lisp  :star:W
 - [ ] Lua
-- [ ] Nim
+- [x] Nim
 ### Libraries/Engines
 - [ ] Unity2D
 - [ ] Godot Engine
@@ -40,6 +43,7 @@
 - [ ] Async/Multithreading
 - [x] REST APIs (Express JS)
 - [ ] Machine Learning **BASICS**
+- [ ] Genetic Algorithms
 - [ ] Functional Programming
 - [ ] Data:  PostgreSQL, MongoDB, GraphQL
 ### Non-Code Topics

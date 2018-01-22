@@ -1,0 +1,10 @@
+{"compile":[
+["/Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/hello.c", "clang -c  -w  -I/Users/bus9077/Downloads/nim-0.17.2/lib -o /Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/hello.o /Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/hello.c"],
+["/Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/stdlib_system.c", "clang -c  -w  -I/Users/bus9077/Downloads/nim-0.17.2/lib -o /Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/stdlib_system.o /Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/stdlib_system.c"]
+],
+"link":[
+"/Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/hello.o",
+"/Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/stdlib_system.o"
+],
+"linkcmd": "clang   -o /Users/bus9077/dev/git-repos/new52/4_nimlang/hello  /Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/hello.o /Users/bus9077/dev/git-repos/new52/4_nimlang/nimcache/stdlib_system.o    -ldl"
+}
