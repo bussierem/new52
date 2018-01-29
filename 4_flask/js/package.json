@@ -1,0 +1,21 @@
+{
+  "name": "battlesim",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://battle-sim.herokuapp.com/static/",
+  "dependencies": {
+    "lodash.merge": "^4.6.0",
+    "react": "^16.2.0",
+    "react-accessible-accordion": "^1.0.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-jsonschema-form": "^1.0.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

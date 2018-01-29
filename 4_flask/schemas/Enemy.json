@@ -1,0 +1,26 @@
+{
+  "title": "Enemy",
+  "type": "object",
+  "base_class": "Combatant",
+  "properties": {
+    "name": {
+      "default": "Enemy"
+    },
+    "cr": {
+      "type": "integer",
+      "default": 0
+    },
+    "health": {
+      "default": 10
+    },
+    "init": {
+      "default": 0
+    },
+    "defense": {
+      "default": 10
+    },
+    "attacks": {
+      "default": []
+    }
+  }
+}

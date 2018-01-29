@@ -1,0 +1,41 @@
+{
+  "title": "Player",
+  "type": "object",
+  "base_class": "Combatant",
+  "properties": {
+    "name": {
+      "default": "Player"
+    },
+    "level": {
+      "type": "integer",
+      "default": 1
+    },
+    "health": {
+      "default": 10
+    },
+    "init": {
+      "default": 0
+    },
+    "defense": {
+      "default": 10
+    },
+    "attacks": {
+      "default": []
+    },
+    "spells": {
+      "type": "array",
+      "items": {
+        "type": "Magic"
+      },
+      "default": []
+    },
+    "consumables": {
+      "type": "integer",
+      "default": 0
+    },
+    "regenerators": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

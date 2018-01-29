@@ -1,0 +1,75 @@
+Create a new Player
+---
+tags:
+  - Players
+definitions:
+  schema:
+    id: Attack
+    type: object
+    properties:
+      atk_type:
+        type: string
+        description: Melee or Ranged
+      hit_bonus:
+        type: integer
+        description: Bonus to attack roll (can be negative)
+      damage:
+        type: string
+        description: Damage roll (XdY+B) or range (<min>-<max>)
+  schena:
+    id: Spell
+    type: object
+    properties:
+      spell_lvl:
+        type: integer
+        description: Level of the spell (must be positive)
+      hit_bonus:
+        type: integer
+        description: Bonus to attack roll (can be negative)
+      damage:
+        type: string
+        description: Damage roll (XdY+B) or range (<min>-<max>)
+parameters:
+  - name: body
+    in: body
+    schema:
+      id: Player
+      type: object
+      properties:
+        name:
+          type: string
+          description: Player's name
+        health:
+          type: integer
+          description: Player's Health total
+        init:
+          type: integer
+          description: Player's initiative bonus
+        defense:
+          type: integer
+          description: Player's Defense total
+        level:
+          type: integer
+          description: Player's level (should be > 0)
+        consumables:
+          type: integer
+          description: A sum total of a Player's single-use consumables
+        regenerators:
+          type: integer
+          description: A sum total of a Player's daily renewables (usually spell slots)
+        attacks:
+          type: array
+          description: A list of Player attacks (not spells)
+          items:
+            $ref: "#/definitions/Attack"
+        spells:
+          type: array
+          description: A list of Player spells (if any)
+          items:
+            $ref: "#/definitions/Spell"
+responses:
+  201:
+    description: Player created
+    schema:
+      type: string
+      descriptions: The ID of the new Player

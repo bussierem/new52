@@ -10,8 +10,8 @@
 ## Week 3 (1/15 - 1/21):  EmberJS :white_check_mark:
 ### Project:  A site where you can submit anything for funny reviews, or review submitted things
 
-## Week 4 (1/22-1/28):  Nim Language
-### Project:  Unknown until I explore the language more!
+## Week 4 (1/22-1/28):  Flask, Swagger, and Heroku :white_check_mark:
+### Project:  A "Battle Simulator" to use for D&D-like combats
 ---
 
 ## Research Ideas:

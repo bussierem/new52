@@ -1,0 +1,58 @@
+Update an Enemy by ID
+---
+tags:
+  - Enemies
+definitions:
+  schema:
+    id: Attack
+    type: object
+    properties:
+      atk_type:
+        type: string
+        description: Melee or Ranged
+      hit_bonus:
+        type: integer
+        description: Bonus to attack roll (can be negative)
+      damage:
+        type: string
+        description: Damage roll (XdY+B) or range (<min>-<max>)
+parameters:
+  - in: body
+    name: body
+    schema:
+      id: Enemy
+      required:
+        - name
+        - health
+        - init
+        - defense
+        - cr
+        - attacks
+      properties:
+        name:
+          type: string
+          description: Enemy's name
+        health:
+          type: integer
+          description: Enemy's Health total
+        init:
+          type: integer
+          description: Enemy's initiative bonus
+        defense:
+          type: integer
+          description: Enemy's Defense total
+        cr:
+          type: integer
+          description: Enemy's challenge rating (should be >= 0)
+        attacks:
+          type: array
+          description: A list of Enemy attacks (not spells)
+          items:
+            $ref: "#/definitions/Attack"
+responses:
+  204:
+    description: Enemy updated
+    schema:
+      id: guid
+      type: string
+      descriptions: The ID of the Enemy (will be the same)

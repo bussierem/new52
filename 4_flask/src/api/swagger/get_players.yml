@@ -1,0 +1,17 @@
+Retrieve list of all Players
+---
+tags:
+  - Players
+responses:
+  200:
+    description: Players sent
+    schema:
+      id: Players
+      type: object
+      properties:
+        players:
+          type: array
+          description: List of Player IDs
+          items:
+            type: string
+            description: Player ID

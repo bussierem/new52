@@ -1,0 +1,51 @@
+Retrieve a Enemy by ID
+---
+tags:
+  - Enemies
+definitions:
+  Enemy:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Enemy's name
+      health:
+        type: integer
+        description: Enemy's Health total
+      init:
+        type: integer
+        description: Enemy's initiative bonus
+      defense:
+        type: integer
+        description: Enemy's Defense total
+      cr:
+        type: integer
+        description: Enemy's challenge rating (should be >= 0)
+      attacks:
+        type: array
+        description: A list of Enemy attacks (not spells)
+        items:
+          $ref: "#/definitions/Attack"
+  Attack:
+    type: object
+    properties:
+      atk_type:
+        type: string
+        description: Melee or Ranged
+      hit_bonus:
+        type: integer
+        description: Bonus to attack roll (can be negative)
+      damage:
+        type: string
+        description: Damage roll (XdY+B) or range (<min>-<max>)
+parameters:
+  - name: guid
+    in: path
+    description: ID of the Enemy to retrieve
+    required: true
+    type: string
+responses:
+  200:
+    description: Enemy data returned
+    schema:
+      $ref: "#/definitions/Enemy"

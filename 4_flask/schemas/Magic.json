@@ -1,0 +1,10 @@
+{
+  "title": "Magic",
+  "type": "object",
+  "base_class": "Attack",
+  "properties": {
+    "spell_lvl": {
+      "type": "integer"
+    }
+  }
+}
