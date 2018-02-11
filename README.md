@@ -12,13 +12,20 @@
 
 ## Week 4 (1/22-1/28):  Flask, Swagger, and Heroku :white_check_mark:
 ### Project:  A "Battle Simulator" to use for D&D-like combats
+
+## Week 5 (1/29-2/4):  MongoDB, Flasgger :white_check_mark:
+### Project:  Creating a MongoDB data store for the Week 4 Battle Simulator project
+
+## Week 6 (2/5-2/11):  Go Language
+### Project:  Recreating the Battle Simulator backend code in GoLang
+
 ---
 
 ## Research Ideas:
 ### Frameworks:
 - [x] React
 - [ ] VueJS
-- [ ] Flask
+- [x] Flask
 - [ ] Django
 - [x] EmberJS
 ### Utilities:
@@ -29,8 +36,9 @@
 - [ ] Docker/Kubernetes :star:W
 - [ ] Web Servers: NGINX, Apache
 - [ ] CI/CD: Jenkins, Gitlab, Git
+- [x] Heroku Hosting and CI Pipeline
 ### Languages:
-- [ ] Go  :star:W
+- [x] Go  :star:W
 - [ ] Rust  :star:W
 - [ ] Lisp  :star:W
 - [ ] Lua
@@ -45,8 +53,9 @@
 - [ ] Machine Learning **BASICS**
 - [ ] Genetic Algorithms
 - [ ] Functional Programming
-- [ ] Data:  PostgreSQL, MongoDB, GraphQL
+- [x] Data:  PostgreSQL, MongoDB, GraphQL
 ### Non-Code Topics
+- [ ] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
 - [ ] Arduino C, Electronics

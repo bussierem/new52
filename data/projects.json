@@ -31,6 +31,22 @@
         "desc": "Battle Sim using Python/Flask",
         "hours": 14
       }
+    },
+    {
+      "id": 4,
+      "project": {
+        "week": "5",
+        "desc": "MongoDB and Flasgger",
+        "hours": 9
+      }
+    },
+    {
+      "id": 5,
+      "project": {
+        "week": "6",
+        "desc": "Go Language",
+        "hours": 5
+      }
     }
   ]
 }
