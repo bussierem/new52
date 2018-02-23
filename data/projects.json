@@ -45,7 +45,23 @@
       "project": {
         "week": "6",
         "desc": "Go Language",
-        "hours": 5
+        "hours": 8
+      }
+    },
+    {
+      "id": 6,
+      "project": {
+        "week": "7",
+        "desc": "Procedural Dungeon Generation",
+        "hours": 8
+      }
+    },
+    {
+      "id": 7,
+      "project": {
+        "week": "8",
+        "desc": "Machine Learning Iris Classifier",
+        "hours": 2
       }
     }
   ]
