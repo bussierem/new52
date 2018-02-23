@@ -16,8 +16,11 @@
 ## Week 5 (1/29-2/4):  MongoDB, Flasgger :white_check_mark:
 ### Project:  Creating a MongoDB data store for the Week 4 Battle Simulator project
 
-## Week 6 (2/5-2/11):  Go Language
+## Week 6 (2/5-2/11):  Go Language :white_check_mark:
 ### Project:  Recreating the Battle Simulator backend code in GoLang
+
+## Week 7 (2/12-2/18):  Procedural Generation :white_check_mark:
+### Project:  Procedural Generation of a custom grid-based dungeon for the Battle Simulator (Week 4)
 
 ---
 
@@ -53,6 +56,7 @@
 - [ ] Machine Learning **BASICS**
 - [ ] Genetic Algorithms
 - [ ] Functional Programming
+- [x] Procedural Generation
 - [x] Data:  PostgreSQL, MongoDB, GraphQL
 ### Non-Code Topics
 - [ ] AWS Certification
