@@ -22,7 +22,7 @@
 ## Week 7 (2/12-2/18):  Procedural Generation :white_check_mark:
 ### Project:  Procedural Generation of a custom grid-based dungeon for the Battle Simulator (Week 4)
 
-## Week 8 (2/19-2/25):  Machine Learning BASICS
+## Week 8 (2/19-2/25):  Machine Learning BASICS :white_check_mark:
 ### Project:  Basic online tutorial dealing with classification of Irises from online dataset
 
 ---
