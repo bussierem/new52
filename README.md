@@ -25,6 +25,8 @@ Project:  Procedural Generation of a custom grid-based dungeon for the Battle Si
 ### Week 8 (2/19-2/25):  Machine Learning BASICS :white_check_mark:
 Project:  Basic online tutorial dealing with classification of Irises from online dataset
 
+### Week 9 (2/26-3/4):  Rust Language
+
 ---
 
 ## Research Ideas:
@@ -45,7 +47,7 @@ Project:  Basic online tutorial dealing with classification of Irises from onlin
 - [x] Heroku Hosting and CI Pipeline
 ### Languages:
 - [x] Go  :star:W
-- [ ] Rust  :star:W
+- [x] Rust  :star:W
 - [ ] Lisp  :star:W
 - [ ] Lua
 - [x] Nim
