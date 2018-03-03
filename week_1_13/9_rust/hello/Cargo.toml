@@ -1,0 +1,7 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["bus9077 <mbussiere@learnvest.com>"]
+
+[dependencies]
+rand = "0.3.14"

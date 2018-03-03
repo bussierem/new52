@@ -63,6 +63,14 @@
         "desc": "Machine Learning Iris Classifier",
         "hours": 8
       }
+    },
+    {
+      "id": 8,
+      "project": {
+        "week": "9",
+        "desc": "Rust Language",
+        "hours": 6
+      }
     }
   ]
 }

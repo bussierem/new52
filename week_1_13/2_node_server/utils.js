@@ -1,5 +1,5 @@
 const fs       = require('fs');
-const projFile = '../data/projects.json';
+const projFile = '../../data/projects.json';
 
 module.exports = class Utils {
   loadProjects() { return JSON.parse(fs.readFileSync(projFile)); }
