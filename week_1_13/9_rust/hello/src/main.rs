@@ -103,10 +103,19 @@ fn main() {
     make_copy(i); // i's value is _copied_ to the function
     // "i" is STILL VALID here! has not left scope yet
     let st = String::from("hello");
-    let s3 = takes_and_gives_back(st);
+    let mut s3 = takes_and_gives_back(st);
     println!("{}", s3);
     let resp = return_multiple();
     println!("{}, {}", resp.0, resp.1);
+    let length = get_length_ref(&s3);
+    println!("length = {}", length);
+    modify_referenced(&mut s3);
+    println!("{}", s3);
+    // String slicing
+    let full_str = String::from("Hello World");
+    let hello = &full_str[..5]; // You can skip either end if it's 0 or the max length
+    let world = &full_str[6..11]; // min inclusive, max exclusive
+    println!("{} {}", hello, world);
 }
 
 fn foo(x: i32) {
@@ -142,4 +151,22 @@ fn return_multiple() -> (String, i32) {
     let x = 32;
     let y = String::from("Test");
     (y, x)
+}
+
+fn get_length_ref(s: &String) -> usize {
+    s.len()
+}
+
+fn modify_referenced(s: &mut String) {
+    s.push_str(" + test");
+}
+
+fn find_first_word(s: &String) -> usize {
+    let bytes = s.as_bytes();
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return i;
+        }
+    }
+    s.len()
 }

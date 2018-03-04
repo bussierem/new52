@@ -25,7 +25,8 @@ Project:  Procedural Generation of a custom grid-based dungeon for the Battle Si
 ### Week 8 (2/19-2/25):  Machine Learning BASICS :white_check_mark:
 Project:  Basic online tutorial dealing with classification of Irises from online dataset
 
-### Week 9 (2/26-3/4):  Rust Language
+### Week 9 (2/26-3/4):  Rust Language :white_check_mark:
+Project:  None this week.  Just learning via Rust's tutorial about the features of Rust
 
 ---
 

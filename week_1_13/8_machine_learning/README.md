@@ -1,4 +1,4 @@
-# Week 8:  Machine Learning BASICS
+# Week 8:  Machine Learning BASICS (COMPLETE!)
 
 This week will be spent with my first dive into the basics of Machine Learning.  
 This is a completely new topic for me, so I will simply be going through an online
