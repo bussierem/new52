@@ -102,6 +102,11 @@ fn main() {
     let i = 32;
     make_copy(i); // i's value is _copied_ to the function
     // "i" is STILL VALID here! has not left scope yet
+    let st = String::from("hello");
+    let s3 = takes_and_gives_back(st);
+    println!("{}", s3);
+    let resp = return_multiple();
+    println!("{}, {}", resp.0, resp.1);
 }
 
 fn foo(x: i32) {
@@ -126,4 +131,15 @@ fn take_ownership(s: String) {
 
 fn make_copy(i: u32) {
     println!("{}", i);
+}
+
+fn takes_and_gives_back(mut s: String) -> String {
+    s.push_str(" + Test");
+    s // this return passes ownership back to the outer scope
+}
+
+fn return_multiple() -> (String, i32) {
+    let x = 32;
+    let y = String::from("Test");
+    (y, x)
 }
