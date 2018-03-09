@@ -28,6 +28,9 @@ Project:  Basic online tutorial dealing with classification of Irises from onlin
 ### Week 9 (2/26-3/4):  Rust Language :white_check_mark:
 Project:  None this week.  Just learning via Rust's tutorial about the features of Rust
 
+### Week 10 (3/5-3/11): Atom Plugin
+Project:  Plugin that creates Examples Table for Gherkin Feature File Scenarios
+
 ---
 
 ## Research Ideas:
@@ -46,6 +49,11 @@ Project:  None this week.  Just learning via Rust's tutorial about the features 
 - [ ] Web Servers: NGINX, Apache
 - [ ] CI/CD: Jenkins, Gitlab, Git
 - [x] Heroku Hosting and CI Pipeline
+### Plugins
+- [ ] Atom Plugin
+- [ ] VSCode Plugin
+- [ ] Sublime Text Plugin
+- [ ] Chrome Extension
 ### Languages:
 - [x] Go  :star:W
 - [x] Rust  :star:W
