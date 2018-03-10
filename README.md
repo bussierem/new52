@@ -49,7 +49,7 @@ Project:  Plugin that creates Examples Table for Gherkin Feature File Scenarios
 - [ ] Web Servers: NGINX, Apache
 - [ ] CI/CD: Jenkins, Gitlab, Git
 - [x] Heroku Hosting and CI Pipeline
-### Plugins
+### Plugins:
 - [x] Atom Plugin
 - [ ] VSCode Plugin
 - [ ] Sublime Text Plugin

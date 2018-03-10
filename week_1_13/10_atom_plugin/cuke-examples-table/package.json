@@ -1,0 +1,18 @@
+{
+  "name": "cuke-examples-table",
+  "main": "./lib/cuke-examples-table",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "cuke-examples-table:toggle"
+  },
+  "repository": "https://github.com/atom/cuke-examples-table",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

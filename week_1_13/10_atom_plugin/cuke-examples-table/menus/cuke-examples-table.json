@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cuke-examples-table",
+        "command": "cuke-examples-table:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cuke-examples-table",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cuke-examples-table:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
