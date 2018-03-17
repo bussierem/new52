@@ -71,6 +71,22 @@
         "desc": "Rust Language",
         "hours": 8
       }
+    },
+    {
+      "id": 9,
+      "project": {
+        "week": "10",
+        "desc": "Atom Plugins",
+        "hours": 8
+      }
+    },
+    {
+      "id": 10,
+      "project": {
+        "week": "11",
+        "desc": "Redux",
+        "hours": 12
+      }
     }
   ]
 }
