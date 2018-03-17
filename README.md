@@ -28,8 +28,11 @@ Project:  Basic online tutorial dealing with classification of Irises from onlin
 ### Week 9 (2/26-3/4):  Rust Language :white_check_mark:
 Project:  None this week.  Just learning via Rust's tutorial about the features of Rust
 
-### Week 10 (3/5-3/11): Atom Plugin :white_check_mark:
+### Week 10 (3/5-3/11):  Atom Plugin :white_check_mark:
 Project:  Plugin that creates Examples Table for Gherkin Feature File Scenarios
+
+### Week 11 (3/12-3/18):  Redux (via React-Redux) :white_check_mark:
+Project:  State management for a Shadowrun Character Generator/Sheet
 
 ---
 
@@ -49,7 +52,7 @@ Project:  Plugin that creates Examples Table for Gherkin Feature File Scenarios
 - [ ] Web Servers: NGINX, Apache
 - [ ] CI/CD: Jenkins, Gitlab, Git
 - [x] Heroku Hosting and CI Pipeline
-- [ ] Redux (via React-Redux)
+- [x] Redux (via React-Redux)
 ### Plugins:
 - [x] Atom Plugin
 - [ ] VSCode Plugin
