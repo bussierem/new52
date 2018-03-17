@@ -18,7 +18,7 @@
 
 ---
 
-## Research Ideas:
+## Research Ideas (incomplete list):
 ### Frameworks:
 - [x] React
 - [ ] VueJS
@@ -45,7 +45,6 @@
 - [x] Rust  :star:W
 - [ ] Lisp  :star:W
 - [ ] Lua
-- [x] Nim
 ### Libraries/Engines
 - [ ] Unity2D
 - [ ] Godot Engine
