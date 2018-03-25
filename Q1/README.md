@@ -30,3 +30,6 @@ Project:  Plugin that creates Examples Table for Gherkin Feature File Scenarios
 
 ### Week 11 (3/12-3/18):  Redux (via React-Redux) :white_check_mark:
 Project:  State management for a Shadowrun Character Generator/Sheet
+
+### Week 12 (3/19-3/25):  Chrome Extension :white_check_mark:
+Project:  Preview Values table generator for current job

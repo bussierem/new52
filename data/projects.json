@@ -87,6 +87,14 @@
         "desc": "Redux",
         "hours": 12
       }
+    },
+    {
+      "id": 11,
+      "project": {
+        "week": "12",
+        "desc": "Chrome Extension",
+        "hours": 8
+      }
     }
   ]
 }

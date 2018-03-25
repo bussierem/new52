@@ -11,10 +11,9 @@
 * Week 07: Procedural Generation
 * Week 08: Machine Learning (Basics)
 * Week 09: Rust
-* Week 10: Atom Plugins
+* Week 10: Atom Plugin
 * Week 11: Redux
-* Week 12: VSCode Plugins (COMING SOON)
-* Week 13: Chrome Plugins (COMING SOON)
+* Week 12: Chrome Extension
 
 ---
 

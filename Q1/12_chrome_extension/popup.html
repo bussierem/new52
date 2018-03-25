@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div#container {
+        text-align: center;
+        width: 180px;
+      }
+      #header {
+        width: 100px;
+      }
+      #submit {
+        width: 100px;
+      }
+      #msg {
+        color: "red";
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <label for="header">Policy Type:</label>
+      <select id="header">
+        <option value="Life" default>Life</option>
+        <option value="DI">DI</option>
+        <option value="Term">Term</option>
+      </select>
+      <button id="submit">Generate Table</button><br />
+      <textarea type="text" id="output"></textarea><br />
+      <label id="msg"></label>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
