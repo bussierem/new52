@@ -38,7 +38,7 @@
 - [x] Atom Plugin
 - [ ] VSCode Plugin
 - [ ] Sublime Text Plugin
-- [ ] Chrome Extension
+- [x] Chrome Extension
 ### Languages:
 - [x] Go  :star:W
 - [x] Rust  :star:W
