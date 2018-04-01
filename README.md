@@ -1,7 +1,7 @@
 # New 52
 1 new technology per week, 8 hours each.
 
-### 1st Quarter (Weeks 1-13):
+### 1st Quarter (Weeks 1-13) :white_check_mark:
 * Week 01: React
 * Week 02: REST APIs
 * Week 03: EmberJS
@@ -14,7 +14,10 @@
 * Week 10: Atom Plugin
 * Week 11: Redux
 * Week 12: Chrome Extension
+* Week 13: Godot Engine
 
+### 2nd Quarter (Weeks 14-26)
+* Week 01: 
 ---
 
 ## Research Ideas (incomplete list):
@@ -46,7 +49,7 @@
 - [ ] Lua
 ### Libraries/Engines
 - [ ] Unity2D
-- [ ] Godot Engine
+- [x] Godot Engine
 - [ ] PICO-8  :star:W
 ### Programming Concepts
 - [ ] Async/Multithreading
