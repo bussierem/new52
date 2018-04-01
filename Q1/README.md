@@ -33,3 +33,6 @@ Project:  State management for a Shadowrun Character Generator/Sheet
 
 ### Week 12 (3/19-3/25):  Chrome Extension :white_check_mark:
 Project:  Preview Values table generator for current job
+
+### Week 13 (3/26-4/1):  Godot Game Engine
+Project:  Top-down shooter basic prototype
