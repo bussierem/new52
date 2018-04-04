@@ -17,7 +17,7 @@
 * Week 13: Godot Engine
 
 ### 2nd Quarter (Weeks 14-26)
-* Week 01: 
+* Week 14: CSS Libraries
 ---
 
 ## Research Ideas (incomplete list):
@@ -30,7 +30,7 @@
 ### Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)  :star:W
 - [ ] Logging Libraries
-- [ ] CSS: Sass, Flexbox, Bootstrap, Milligram, etc.
+- [x] CSS: Sass, Flexbox, Bootstrap, Milligram, etc.
 - [ ] Webpack/Browserify/Rollup  :star:W
 - [ ] Docker/Kubernetes :star:W
 - [ ] Web Servers: NGINX, Apache
