@@ -18,6 +18,7 @@
 
 ### 2nd Quarter (Weeks 14-26)
 * Week 14: CSS Libraries
+* Week 15: CI/CD Pipelines
 ---
 
 ## Research Ideas (incomplete list):
@@ -34,7 +35,7 @@
 - [ ] Webpack/Browserify/Rollup  :star:W
 - [ ] Docker/Kubernetes :star:W
 - [ ] Web Servers: NGINX, Apache
-- [ ] CI/CD: Jenkins, Gitlab, Git
+- [x] CI/CD: Jenkins, Gitlab, Git
 - [x] Heroku Hosting and CI Pipeline
 - [x] Redux (via React-Redux)
 ### Plugins:

@@ -103,6 +103,22 @@
         "desc": "Godot Engine",
         "hours": 8
       }
+    },
+    {
+      "id": 13,
+      "project": {
+        "week": "14",
+        "desc": "CSS Libraries",
+        "hours": 8
+      }
+    },
+    {
+      "id": 14,
+      "project": {
+        "week": "15",
+        "desc": "CI/CD Pipelines",
+        "hours": 8
+      }
     }
   ]
 }
