@@ -19,6 +19,7 @@
 ### 2nd Quarter (Weeks 14-26)
 * Week 14: CSS Libraries
 * Week 15: CI/CD Pipelines
+* Week 16: Electronics & Soldering
 ---
 
 ## Research Ideas (incomplete list):
@@ -48,6 +49,7 @@
 - [x] Rust  :star:W
 - [ ] Lisp  :star:W
 - [ ] Lua
+- [ ] Clojure
 ### Libraries/Engines
 - [ ] Unity2D
 - [x] Godot Engine
@@ -64,4 +66,4 @@
 - [ ] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
-- [ ] Arduino C, Electronics
+- [x] Arduino C, Electronics, Soldering
