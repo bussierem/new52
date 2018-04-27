@@ -20,6 +20,7 @@
 * Week 14: CSS Libraries
 * Week 15: CI/CD Pipelines
 * Week 16: Electronics & Soldering
+* Week 17: Clojure
 ---
 
 ## Research Ideas (incomplete list):
@@ -49,7 +50,7 @@
 - [x] Rust  :star:W
 - [ ] Lisp  :star:W
 - [ ] Lua
-- [ ] Clojure
+- [x] Clojure
 ### Libraries/Engines
 - [ ] Unity2D
 - [x] Godot Engine
