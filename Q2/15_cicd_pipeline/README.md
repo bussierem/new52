@@ -1,4 +1,4 @@
-# Week 14:  CI/CD Pipelines - Gitlab, Deployments, etc. (COMPLETE)
+# Week 15:  CI/CD Pipelines - Gitlab, Deployments, etc. (COMPLETE)
 
 This week will be spent learning how CI/CD Pipelines work, and how to setup,
 configure, and manage them.

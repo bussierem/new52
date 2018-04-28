@@ -8,3 +8,6 @@ Project:  Setting up a CI/CD Pipeline at current job with multiple dev environme
 
 ### Week 16 (4/16 - 4/22):  Electronics, Arduino C, Soldering, etc. :white_check_mark:
 Project:  Understanding Arduino prototyping & learning to solder by prototyping Portal Gun internals
+
+### Week 17 (4/23 - 4/29):  Clojure
+Project:  Going through tutorials and learning the basics of Clojure

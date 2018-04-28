@@ -1,4 +1,4 @@
-# Week 14:  Electronics, Arduino C, Soldering, etc.
+# Week 16:  Electronics, Arduino C, Soldering, etc.
 
 This week will be spent learning more about Arduino, Prototyping electronics
 projects, and practicing soldering
