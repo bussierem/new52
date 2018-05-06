@@ -21,6 +21,7 @@
 * Week 15: CI/CD Pipelines
 * Week 16: Electronics & Soldering
 * Week 17: Clojure
+* Week 18: Docker
 ---
 
 ## Research Ideas (incomplete list):
@@ -31,11 +32,11 @@
 - [ ] Django
 - [x] EmberJS
 ### Utilities:
-- [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)  :star:W
+- [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)
 - [ ] Logging Libraries
 - [x] CSS: Sass, Flexbox, Bootstrap, Milligram, etc.
-- [ ] Webpack/Browserify/Rollup  :star:W
-- [ ] Docker/Kubernetes :star:W
+- [ ] Webpack/Browserify/Rollup
+- [x] Docker/Kubernetes
 - [ ] Web Servers: NGINX, Apache
 - [x] CI/CD: Jenkins, Gitlab, Git
 - [x] Heroku Hosting and CI Pipeline
@@ -46,15 +47,15 @@
 - [ ] Sublime Text Plugin
 - [x] Chrome Extension
 ### Languages:
-- [x] Go  :star:W
-- [x] Rust  :star:W
-- [ ] Lisp  :star:W
+- [x] Go
+- [x] Rust
+- [ ] Lisp
 - [ ] Lua
 - [x] Clojure
 ### Libraries/Engines
 - [ ] Unity2D
 - [x] Godot Engine
-- [ ] PICO-8  :star:W
+- [ ] PICO-8
 ### Programming Concepts
 - [ ] Async/Multithreading
 - [x] REST APIs (Express JS)

@@ -11,3 +11,6 @@ Project:  Understanding Arduino prototyping & learning to solder by prototyping 
 
 ### Week 17 (4/23 - 4/29):  Clojure :white_check_mark:
 Project:  Going through tutorials and learning the basics of Clojure
+
+### Week 18 (4/30 - 5/6):  Docker :white_check_mark:
+Project:  Going through the "Docker in Action" book tutorials
