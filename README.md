@@ -22,6 +22,7 @@
 * Week 16: Electronics & Soldering
 * Week 17: Clojure
 * Week 18: Docker
+* Week 19: RabbitMQ
 ---
 
 ## Research Ideas (incomplete list):
@@ -41,6 +42,7 @@
 - [x] CI/CD: Jenkins, Gitlab, Git
 - [x] Heroku Hosting and CI Pipeline
 - [x] Redux (via React-Redux)
+- [x] Message Brokers (via RabbitMQ)
 ### Plugins:
 - [x] Atom Plugin
 - [ ] VSCode Plugin

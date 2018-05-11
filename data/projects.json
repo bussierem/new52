@@ -143,6 +143,14 @@
         "desc": "Docker",
         "hours": 8
       }
+    },
+    {
+      "id": 18,
+      "project": {
+        "week": "19",
+        "desc": "RabbitMQ",
+        "hours": 3
+      }
     }
   ]
 }

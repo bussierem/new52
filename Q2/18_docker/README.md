@@ -1,4 +1,4 @@
-# Week 17:  Docket (COMPLETE)
+# Week 18:  Docker (COMPLETE)
 
 This week will be spent learning about Docker, working through the "Docker in Action"
 tutorials and learning the basics of containerization
