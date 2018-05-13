@@ -15,5 +15,5 @@ Project:  Going through tutorials and learning the basics of Clojure
 ### Week 18 (4/30 - 5/6):  Docker :white_check_mark:
 Project:  Going through the "Docker in Action" book tutorials
 
-### Week 19 (5/7 - 5/13):  Message Brokers (via RabbitMQ)
+### Week 19 (5/7 - 5/13):  Message Brokers (via RabbitMQ) :white_check_mark:
 Project:  Learning the basics of what message brokers do using Python/RabbitMQ

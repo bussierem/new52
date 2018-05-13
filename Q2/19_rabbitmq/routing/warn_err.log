@@ -1,0 +1,4 @@
+>>>>>> Waiting for logs. To exit press CTRL+C <<<<<<
+ [x] [error]: b'Test Error message'
+ [x] [error]: b'Test Error message'
+ [x] [warning]: b'Test Warning message'
