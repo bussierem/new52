@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+learn.so
+learn.dylib
+learn.dll
+learn.a
+learn.lib
+learn-test-*
+*.exe
+*.o
+*.obj
+*.lst

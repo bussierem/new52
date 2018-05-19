@@ -1,0 +1,9 @@
+{
+	"name": "learn",
+	"authors": [
+		"Max Bussiere"
+	],
+	"description": "Learning the D Language",
+	"copyright": "Copyright © 2018, Max Bussiere",
+	"license": "proprietary"
+}

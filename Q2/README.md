@@ -17,3 +17,6 @@ Project:  Going through the "Docker in Action" book tutorials
 
 ### Week 19 (5/7 - 5/13):  Message Brokers (via RabbitMQ) :white_check_mark:
 Project:  Learning the basics of what message brokers do using Python/RabbitMQ
+
+### Week 20 (5/14 - 5/20):  D Language :white_check_mark:
+Project:  Go through the tutorials on the website and learn the syntax

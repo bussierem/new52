@@ -23,6 +23,7 @@
 * Week 17: Clojure
 * Week 18: Docker
 * Week 19: RabbitMQ
+* Week 20: D Language
 ---
 
 ## Research Ideas (incomplete list):
@@ -54,6 +55,7 @@
 - [ ] Lisp
 - [ ] Lua
 - [x] Clojure
+- [x] D
 ### Libraries/Engines
 - [ ] Unity2D
 - [x] Godot Engine
