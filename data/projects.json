@@ -151,6 +151,14 @@
         "desc": "RabbitMQ",
         "hours": 8
       }
+    },
+    {
+      "id": 19,
+      "project": {
+        "week": "20",
+        "desc": "D Language",
+        "hours": 8
+      }
     }
   ]
 }
