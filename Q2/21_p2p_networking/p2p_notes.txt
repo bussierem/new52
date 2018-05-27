@@ -1,0 +1,37 @@
+P2P networks consist only of other computers
+  They act as both clients and servers simultaneously
+  They connect to each other, without any central server
+
+ARCHITECTURE
+  Exist as a "virtual overlay network"
+    making logical connections to each other over normal networks
+      -This is very similar to SDN!
+  Types:
+    Structured
+      -Structured networks manage the overlay network into a specific topology to
+      help with searching, organization, etc.
+      PROS:
+        Searching for a specific resource is made extremely easy due to knowing where information is kept
+      CONS:
+        High rate of churn is difficult, since nodes must maintain a list of their neighbors
+    Unstructured
+      -Unstructured networks have no central organization tying them together,
+      with new nodes added based on their relative location to each other.
+      PROS:
+        Lack of structure allows for local optimization
+        These networks do well in the face of high turnover rate of nodes
+      CONS:
+        Must flood the network to request data from nearby nodes
+        No guarantee that nearby nodes will have the data needed
+          Chance of finding data depends entirely on how "rare" the data is
+    Hybrid
+      -Commonly has a central server that helps peers connect with each other
+      PROS:
+        Known to have far better performance than either other type due to search functions
+      CONS:
+        Requires some kind of managing server
+
+NOTES
+  Since every peer acts as a server and client, they are vulnerable to exploits
+  Malware can spread through a system fast without a trusted connection
+  P2P networks are very robust due to not having a single point of failure

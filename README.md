@@ -24,6 +24,7 @@
 * Week 18: Docker
 * Week 19: RabbitMQ
 * Week 20: D Language
+* Week 21: P2P Networking
 ---
 
 ## Research Ideas (incomplete list):
@@ -68,8 +69,9 @@
 - [ ] Functional Programming
 - [x] Procedural Generation
 - [x] Data:  PostgreSQL, MongoDB, GraphQL
-### Non-Code Topics
+### Non-Code Topics/Concepts
 - [ ] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
 - [x] Arduino C, Electronics, Soldering
+- [x] P2P Networking
