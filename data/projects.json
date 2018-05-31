@@ -167,6 +167,14 @@
         "desc": "P2P Networking",
         "hours": 8
       }
+    },
+    {
+      "id": 21,
+      "project": {
+        "week": "22",
+        "desc": "Elm Language",
+        "hours": 2
+      }
     }
   ]
 }
