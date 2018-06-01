@@ -1,0 +1,41 @@
+var _user$project$Subscriptions$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		if (_p0.ctor === 'MouseMsg') {
+			return {ctor: '_Tuple2', _0: model + 1, _1: _elm_lang$core$Platform_Cmd$none};
+		} else {
+			return {ctor: '_Tuple2', _0: model + 2, _1: _elm_lang$core$Platform_Cmd$none};
+		}
+	});
+var _user$project$Subscriptions$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(
+				_elm_lang$core$Basics$toString(model)),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$Subscriptions$init = {ctor: '_Tuple2', _0: 0, _1: _elm_lang$core$Platform_Cmd$none};
+var _user$project$Subscriptions$KeyMsg = function (a) {
+	return {ctor: 'KeyMsg', _0: a};
+};
+var _user$project$Subscriptions$MouseMsg = function (a) {
+	return {ctor: 'MouseMsg', _0: a};
+};
+var _user$project$Subscriptions$subscriptions = function (model) {
+	return _elm_lang$core$Platform_Sub$batch(
+		{
+			ctor: '::',
+			_0: _elm_lang$mouse$Mouse$clicks(_user$project$Subscriptions$MouseMsg),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$keyboard$Keyboard$downs(_user$project$Subscriptions$KeyMsg),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$Subscriptions$main = _elm_lang$html$Html$program(
+	{init: _user$project$Subscriptions$init, view: _user$project$Subscriptions$view, update: _user$project$Subscriptions$update, subscriptions: _user$project$Subscriptions$subscriptions})();

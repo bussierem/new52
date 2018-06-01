@@ -68,5 +68,5 @@ main =
 2. When the user clicks on the Expand button, the view triggers the Expand message.
 3. Html.program receives the Expand message which calls our update function with Expand and the current application state.
 4. The update function responds to the message by returning the updated state and a command to run (or Cmd.none).
-5. Html.program receives the updated state, stores it, and calls the view with the updated state.
+5. Html.program receives the updated state, stores it, and calls the view with the updated state.displa
 -}

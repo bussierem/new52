@@ -1,0 +1,34 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Max",
+      "level": 2
+    },
+    {
+      "id": "2",
+      "name": "Lyra",
+      "level": 1
+    },
+    {
+      "id": "3",
+      "name": "Josh",
+      "level": 3
+    },
+    {
+      "id": "4",
+      "name": "Tyler",
+      "level": 4
+    },
+    {
+      "id": "5",
+      "name": "John",
+      "level": 1
+    },
+    {
+      "id": "6",
+      "name": "Jessica",
+      "level": 1
+    }
+  ]
+}
