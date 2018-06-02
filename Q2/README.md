@@ -23,3 +23,6 @@ Project:  Go through the tutorials on the website and learn the syntax
 
 ### Week 21 (5/21 - 5/27):  P2P Networking
 Project:  Understand the basics, _possibly_ set up my own basic P2P app.
+
+### Week 22 (5/28 - 6/3):  Elm Language :white_check_mark:
+Project:  Go through all the tutorials, learning the basics

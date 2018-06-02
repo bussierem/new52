@@ -1,4 +1,4 @@
-# Week 21:  P2P Networking
+# Week 21:  P2P Networking (COMPLETE!)
 
 This week will be spent learning about the concept of P2P Networking - how it works,
 how it protects itself, and (possibly) how to setup a basic P2P app.

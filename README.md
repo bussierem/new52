@@ -25,6 +25,7 @@
 * Week 19: RabbitMQ
 * Week 20: D Language
 * Week 21: P2P Networking
+* Week 22: Elm Language
 ---
 
 ## Research Ideas (incomplete list):
@@ -57,6 +58,7 @@
 - [ ] Lua
 - [x] Clojure
 - [x] D
+- [x] Elm
 ### Libraries/Engines
 - [ ] Unity2D
 - [x] Godot Engine
