@@ -2,16 +2,20 @@ module Models exposing (..)
 
 import RemoteData exposing (WebData)
 
+type Route =
+  PlayersRoute
+  | PlayerRoute PlayerId
+  | NotFoundRoute
+
 type alias Model =
-  -- The model is just a list of "Player" objects (defined below)
-  -- This data now comes from the WebData request response
-  { players : WebData (List Player)
+  { players : WebData (List Player) -- list of "Player" objects (defined below) from the WebData request response
+  , route : Route -- The current route
   }
 
-initialModel : Model
-initialModel =
-  -- The initial data will simply be an indication that the data is still Loading:
-  { players = RemoteData.Loading
+initialModel : Route -> Model
+initialModel route =
+  { players = RemoteData.Loading -- indication that the data is still Loading
+  , route = route -- the current route
   }
   -- OLD CODE --
   {- This is the "dummy data" for players

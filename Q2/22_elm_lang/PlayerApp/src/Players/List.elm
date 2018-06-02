@@ -1,10 +1,11 @@
 module Players.List exposing (..)
 -- This Module is similar to a "React Component", and gets pulled into View.elm similarly
 import Html exposing (..)
-import Html.Attributes exposing (class)
+import Html.Attributes exposing (class, href)
 import Messages exposing (Msg)
 import Models exposing (Player)
 import RemoteData exposing (WebData)
+import Routing exposing (playerPath)
 
 view : WebData (List Player) -> Html Msg
 view response =
@@ -34,8 +35,8 @@ maybeList response =
       text ""
     RemoteData.Loading ->
       text "Loading..."
-    RemoteData.Failure error ->
-      text (toString error)
+    RemoteData.Failure err ->
+      text (toString err)
     RemoteData.Success players ->
       list players
 
@@ -70,5 +71,17 @@ playerRow player =
      [ td [] [ text player.id ]
      , td [] [ text player.name ]
      , td [] [ text (toString player.level) ]
-     , td [] []
+     , td [] [ editBtn player ]
      ]
+
+editBtn : Player -> Html.Html Msg
+editBtn player =
+  let
+    path = playerPath player.id
+  in
+    a [ class "brn regular"
+      , href path
+      ]
+      [ i [ class "fa fa-pencil mr1" ] []
+      , text "Edit"
+      ]
