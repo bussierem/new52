@@ -3,12 +3,12 @@
     {
       "id": "1",
       "name": "Max",
-      "level": 2
+      "level": 4
     },
     {
       "id": "2",
       "name": "Lyra",
-      "level": 1
+      "level": 5
     },
     {
       "id": "3",
@@ -28,7 +28,7 @@
     {
       "id": "6",
       "name": "Jessica",
-      "level": 1
+      "level": 3
     }
   ]
 }

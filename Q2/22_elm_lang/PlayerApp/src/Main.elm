@@ -1,7 +1,6 @@
 module Main exposing (..)
 
 -- utils
-import Html exposing (program)
 import Navigation exposing (Location)
 import Routing
 -- internal modules
