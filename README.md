@@ -26,6 +26,8 @@
 * Week 20: D Language
 * Week 21: P2P Networking
 * Week 22: Elm Language
+* Week 23: AWS Associate Developer Training
+
 ---
 
 ## Research Ideas (incomplete list):
@@ -35,6 +37,7 @@
 - [x] Flask
 - [ ] Django
 - [x] EmberJS
+- [ ] Cypress (Testing)
 ### Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)
 - [ ] Logging Libraries
@@ -72,7 +75,7 @@
 - [x] Procedural Generation
 - [x] Data:  PostgreSQL, MongoDB, GraphQL
 ### Non-Code Topics/Concepts
-- [ ] AWS Certification
+- [x] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
 - [x] Arduino C, Electronics, Soldering

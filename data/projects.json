@@ -175,6 +175,14 @@
         "desc": "Elm Language",
         "hours": 8
       }
+    },
+    {
+      "id": 22,
+      "project": {
+        "week": "23",
+        "desc": "AWS Developer Certification",
+        "hours": 2
+      }
     }
   ]
 }
