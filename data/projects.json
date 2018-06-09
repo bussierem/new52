@@ -180,6 +180,14 @@
       "id": 22,
       "project": {
         "week": "23",
+        "desc": "Cypress Testing",
+        "hours": 8
+      }
+    },
+    {
+      "id": 23,
+      "project": {
+        "week": "24",
         "desc": "AWS Developer Certification",
         "hours": 2
       }

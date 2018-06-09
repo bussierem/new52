@@ -26,7 +26,8 @@
 * Week 20: D Language
 * Week 21: P2P Networking
 * Week 22: Elm Language
-* Week 23: AWS Associate Developer Training
+* Week 23: Cypress Testing Framework
+* Week 24: AWS Associate Developer Training
 
 ---
 
@@ -37,7 +38,7 @@
 - [x] Flask
 - [ ] Django
 - [x] EmberJS
-- [ ] Cypress (Testing)
+- [x] Cypress (Testing)
 ### Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)
 - [ ] Logging Libraries

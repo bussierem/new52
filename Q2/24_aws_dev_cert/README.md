@@ -1,4 +1,4 @@
-# Week 23:  AWS Associate Developer Certification
+# Week 24:  AWS Associate Developer Certification
 
 This week will be spent starting the Udemy Course for AWS Associate Developer Certification,
 located at http://udemy.com/aws-certified-developer-associate/

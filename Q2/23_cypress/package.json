@@ -1,0 +1,14 @@
+{
+  "name": "cyprs-crbn",
+  "version": "0.0.1",
+  "description": "Port of kevlar-crbn to cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy-open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.0.1"
+  }
+}
