@@ -10,7 +10,7 @@
 ### AWS Services
 _+: Important for Developer Associate Course_
 +**Compute**
-  EC2 (Elastic Compute Cloud) - Virtual Machines inside the AWS Platform
+  [EC2 (Elastic Compute Cloud)](services/EC2.md) - Virtual Machines inside the AWS Platform
   EC2 Container Service - Run and manage Docker containers at scale
   +Elastic Beanstalk - Upload code, and beanstalk takes care of autoscaling, load balancers, etc
   +Lambda - Code you upload, control when it executes - no worrying about machines etc, just code
@@ -83,7 +83,7 @@ _+: Important for Developer Associate Course_
   +Data Pipeline - A method of moving data between AWS services
   Glue - Used for "ETL" (Extract, Transform, Load) - Reformat various data in different formats into specific formats
 +**Security & Identity & Compliance**
-  +IAM (Identity Access Management) - ???
+  [+IAM (Identity Access Management)](services/IAM.md) - ???
   Cognito - Method of doing device authentication for mobile access to AWS services
   Guard Duty - Monitors for malicious activity on AWS accounts
   +Inspector - Install on VMs, then run tests against it for security vulnerabilities, etc. with reporting
