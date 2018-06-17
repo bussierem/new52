@@ -62,12 +62,13 @@ X1 | Memory Optimized | SAP HANA, Apache Spark
 * P for Pics (Graphics)
 * X for X-treme Memory
 
-### EBS
-#### What is it?
-* EBS allows you to create storage volumes to attach to EC2 instances, then create a filesystem on top of these volumes.
+# EBS
+## What is it?
+* EBS allows you to create storage volumes to attach to EC2 instances
+  * You can then create a filesystem on top of these volumes, run a DB, etc.
 * Placed in specific Availability Zones and automatically replicated across multiple disks
 
-#### Types:
+### Types:
 1. General Purpose SSD (GP2)
   * General purpose, balances both price and performance
   * Ratio of 3 IOPS/GB with up to 10,000 IOPS and the ability to burst up to 3,000 IOPS for extended periods of time for 3,334 GiB and above volumes
@@ -88,7 +89,52 @@ X1 | Memory Optimized | SAP HANA, Apache Spark
   * Magnetic volumes are ideal for workloads where data is accessed infrequently
   * Applications where the lowest storage cost is important
 
-### Exam Tips
-1. 4 different pricing models (_EC2 Options_)
-2. FIGHT DR MC PX
-3. EBS Types
+# Security Groups
+## What are they?
+* Security Groups are essentially virtual firewalls
+* EC2 instances can have _multiple_ Security Groups each
+
+
+# Exam Tips
+1. **General EC2**
+  * 4 different pricing models (_EC2 Options_)
+  * Instance Types:
+    * FIGHT DR MC PX
+2. **EBS**
+  * You cannot mount 1 EBS volume to multiple EC2 instances - **use EFS instead for this**
+  * Your EBS Volume(s) _must be in the same Availability Zone_ as your EC2 instance
+  * You _can change_ EBS Volume size _and_ storage type on the fly, without shutting down!
+  * How to use an EBS volume on an EC2 instance in a different AZ?
+    1. Snapshot the Volume
+    2. Create a new Volume based on the Snapshot
+    3. Modify the AZ of the new Volume during creation
+    4. Assign the new Volume to the EC2 instance in the other AZ
+  * How to start a new EC2 instance in a different **Region** using the Volume?
+    1. Snapshot the Volume
+    2. Copy the Snapshot, change the Region
+    3. Create an Image based on the copied Snapshot
+  * **Volumes & Snapshots**
+    * Volumes exist on EBS (as Virtual Hard Disks)
+    * Snapshots exist on S3
+    * Snapshots are point-in-time copies of Volumes
+    * Snapshots are incremental - only blocks that have changed since last Snapshot are moved to S3
+    * AMIs can be created from _both_ Volumes _and_ Snapshots
+    * Snapshots are automatically encrypted
+      * as are Volumes restored from encrypted Snapshots
+    * You can _share_ Snapshots, but _only_ if they are unencrypted
+      * This includes with other AWS accounts, or completely public Snapshots
+3. **EC2 Instances**
+  * **1 Subnet == 1 Availability Zone**
+  * Termination protection is **OFF** by default, it must be manually turned on!
+  * On EBS-backed instance, default action for root EBS is to be **deleted** when the instance is terminated
+  * EBS Root Volumes of your **default AMI** cannot be encrypted.
+    * You can use a 3rd-arty tool to encrypt the root volume, OR
+    * You can make copies of the AMI in the AWS console and encrypt the copy
+  * Additional volumes _can_ be encrypted.
+4. **Security Groups**
+  * Changes to Security Groups/Rules will apply **instantly**!
+  * All Inbound traffic is _blocked_ by default
+  * All Outbound traffic is _allowed_ by default
+  * Security Groups are "stateful" - anytime you add an Inbound rule, an Outbound rule is automatically added!
+    * This means that even if you have no Outbound rules, traffic still flows through your Inbound rules
+  * Security Groups cannot **block** specific IP addresses - use Network Access Control Lists for this

@@ -1,4 +1,4 @@
-# Week 23:  Cypress Testing Framework
+# Week 23:  Cypress Testing Framework (COMPLETE!)
 
 This week will be spent learning the "Cypress" testing framework - a web ui automation
 framework that acts as an alternative to Selenium/WebDriverIO.

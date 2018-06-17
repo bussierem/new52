@@ -30,5 +30,5 @@ Project:  Go through all the tutorials, learning the basics
 ### Week 23 (6/4 - 6/10):  Cypress Testing Framework :white_check_mark:
 Project:  Replicate an existing Selenium/WDIO-based test in Cypress for comparison.
 
-### Week 24 (6/11 - 6/17):  AWS Associate Developer Certification
+### Week 24 (6/11 - 6/17):  AWS Associate Developer Certification :white_check_mark:
 Project:  Go through the Udemy Course for certification training
