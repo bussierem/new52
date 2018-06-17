@@ -50,17 +50,17 @@ X1 | Memory Optimized | SAP HANA, Apache Spark
 
 #### How to remember the types:
 **Fight DrMcPx**
-* F for FPGA
-* I for IOPS
-* G for Graphics
-* H for High Disk Throughput
-* T for Totally Cheap
-* D for Density
-* R for RAM
-* M for Main choice for general purpose apps
-* C for Compute
-* P for Pics (Graphics)
-* X for X-treme Memory
+* **F** for FPGA
+* **I** for IOPS
+* **G** for Graphics
+* **H** for High Disk Throughput
+* **T** for Totally Cheap
+* **D** for Density
+* **R** for RAM
+* **M** for Main choice for general purpose apps
+* **C** for Compute
+* **P** for Pics (Graphics)
+* **X** for X-treme Memory
 
 # EBS
 ## What is it?
