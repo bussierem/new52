@@ -28,6 +28,7 @@
 * Week 22: Elm Language
 * Week 23: Cypress Testing Framework
 * Week 24: AWS Associate Developer Training
+* Week 25: Haskell
 
 ---
 
@@ -39,7 +40,7 @@
 - [ ] Django
 - [x] EmberJS
 - [x] Cypress (Testing)
-### Utilities:
+### Libraries/Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)
 - [ ] Logging Libraries
 - [x] CSS: Sass, Flexbox, Bootstrap, Milligram, etc.
@@ -50,6 +51,7 @@
 - [x] Heroku Hosting and CI Pipeline
 - [x] Redux (via React-Redux)
 - [x] Message Brokers (via RabbitMQ)
+- [ ] OAuth Service
 ### Plugins:
 - [x] Atom Plugin
 - [ ] VSCode Plugin
@@ -63,7 +65,8 @@
 - [x] Clojure
 - [x] D
 - [x] Elm
-### Libraries/Engines
+- [x] Haskell
+### Game Engines
 - [ ] Unity2D
 - [x] Godot Engine
 - [ ] PICO-8
@@ -79,5 +82,6 @@
 - [x] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
+- [ ] Terraform/SonarQube Project Scanning
 - [x] Arduino C, Electronics, Soldering
 - [x] P2P Networking
