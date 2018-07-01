@@ -29,6 +29,10 @@
 * Week 23: Cypress Testing Framework
 * Week 24: AWS Associate Developer Training
 * Week 25: Haskell
+* Week 26: Terraform
+
+### 3rd Quarter (Weeks 27-39)
+* Week 27:
 
 ---
 
@@ -82,6 +86,6 @@
 - [x] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
-- [ ] Terraform/SonarQube Project Scanning
+- [x] Terraform/SonarQube
 - [x] Arduino C, Electronics, Soldering
 - [x] P2P Networking

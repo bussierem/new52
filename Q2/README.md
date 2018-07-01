@@ -35,3 +35,6 @@ Project:  Go through the Udemy Course for certification training
 
 ### Week 25 (6/18 - 6/24):  Haskell :white_check_mark:
 Project:  Go through an online Haskell tutorial
+
+### Week 26 (6/25 - 7/1):  Terraform :white_check_mark:
+Project:  Using Terraform to provision AWS Services, utilizing learning from Week 24
