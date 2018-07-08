@@ -32,7 +32,7 @@
 * Week 26: Terraform
 
 ### 3rd Quarter (Weeks 27-39)
-* Week 27:
+* Week 27: Python Data Science Intro
 
 ---
 
@@ -82,10 +82,11 @@
 - [ ] Functional Programming
 - [x] Procedural Generation
 - [x] Data:  PostgreSQL, MongoDB, GraphQL
+- [x] Data Science
 ### Non-Code Topics/Concepts
 - [x] AWS Certification
 - [ ] Web Security Basics
 - [ ] White-hat Hacking Tools Basics
-- [x] Terraform/SonarQube
+- [x] Terraform
 - [x] Arduino C, Electronics, Soldering
 - [x] P2P Networking
