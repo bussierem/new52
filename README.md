@@ -33,6 +33,7 @@
 
 ### 3rd Quarter (Weeks 27-39)
 * Week 27: Python Data Science Intro
+* Week 28: Intermediate Functional Programming Topics
 
 ---
 
@@ -44,6 +45,7 @@
 - [ ] Django
 - [x] EmberJS
 - [x] Cypress (Testing)
+- [ ] Ruby on Rails
 ### Libraries/Utilities:
 - [ ] Grunt/Gulp/NPM/Yarn/etc (Group these)
 - [ ] Logging Libraries
@@ -79,7 +81,7 @@
 - [x] REST APIs (Express JS)
 - [x] Machine Learning **BASICS**
 - [ ] Genetic Algorithms
-- [ ] Functional Programming
+- [x] Functional Programming
 - [x] Procedural Generation
 - [x] Data:  PostgreSQL, MongoDB, GraphQL
 - [x] Data Science
